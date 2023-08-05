@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer portafolio!</title>
+    <link rel="stylesheet" href="estiloPortafolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+
+<!--  commit-->
+
+<body>
+    <div class="contain">
+    <header>
+        <h2 id="titulo">MiPorfolio! </h2>
+        <div class="contenedor">   
+           <a href="#YOO">Sobre mi </a>
+            <a href="#Estudios">Estudios</a>
+            <a href="#Contactame">Contactame</a>
+        </div>
+    </header>
+
+    <section class="primera">
+    <h1>¡HOLA! Soy Mateo :)</h1>
+
+    <img class="imagen" src="avatar.png" alt="imag" width="400" height="220" id="imagen">
+    <p id="presentacion">¡Soy un estudiante de Jovenes A Programar 2023!</p>
+    </section>
+
+    <div class="SobreMi">
+    <h2 id="YOO">Sobre mi</h2>
+    <p>
+        Mi nombre completo es Mateo Ruiz, tengo 19 años y como ya mencioné antes soy un estudiante de jovenes a programar 2023. <br>
+        Me metí a este curso por el amor que le tengo a todo lo relacionado con lo que es la electronica, computacion, programacion etc <br>
+        Mi sueño es algún dia poder trabajar de esto que es algo que realmente me apasiona y me motiva a mejorar. Que ademas es algo que personalmente <br>
+        creo ser muy capaz, la capacidad de mejorar en las areas que me proponga, trabajar en equipo, la capacidad de resolucion de problemas, entre otras <br>
+        muchas habilidades necesarias en el mundo de la programación.
+    </p>
+    </div>
+
+    <div class="estudios">
+        <h2 id="Estudios">Estudios</h2>
+        <div class="tabla-estudios">
+          <table>
+            <tr>
+              <th>Primaria</th>
+              <th>Secundaria</th>
+              <th>Bachillerato</th>
+              <th>Cursos</th>
+            </tr>
+            <tr>
+              <td>Colegio y Liceo Integral Barros Blancos</td>
+              <td>Colegio y Liceo Integral Barros Blancos</td>
+              <td>Liceo N2 Barros Blancos<br>Orientacion Humanistico Derecho</td>
+              <td>
+                Curso JAP Desarrollo Web<br>
+                Curso de Inglés, Voxy
+              </td>
+            </tr>
+          </table>
+        </div>
+    </div>
+      
+    <h2 id="hobit"> Hobbies</h2> 
+    
+    <div class="hobbies">
+        <div>
+          <h3>Krav Maga</h3>
+          <p>Krav Maga es una sistema de defensa personal, el mismo que usa el ejercito Israelí, éste está pensado para prevenir conflictos, es decir, amenazas, hostigamientos, intentos de golpes, desarmes, entre muchas otras cosas.</p>
+        </div>
+        <div>
+          <h3>Muay Thai</h3>
+          <p>Muay thai, esto es el "boxeo" tahilandes, y aunque se diga boxeo, se usan todas las extremidades, vale todo, es decir, patadas, y codos incluidos. Se considera una de las artes marciales más peligrosas. <br>
+            ésta la hice en conjuto con krav maga, ya que nuestro profesor (que tenia muchisimas artes marciales aprendidas) nos compaginó el krav maga y el estilo de pelea del Muay thai.</p>
+        </div>
+        <div>
+          <h3>GYM</h3>
+          <p>Y por ultimo el gimnasio, que es uno de los hobbies que siempre tuve, desde muy los 15-16 años que voy al gimnasio.</p>
+        </div>
+    </div>
+
+
+    <div class="contacto">
+    <h2 id="Contactame"> Contactame</h2>
+
+
+  <form action="/enviar-formulario" method="post">
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre" name="nombre" required> <br> <br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"  required> <br> <br>
+
+  Mensaje: <br>
+  <textarea id="mensaje" name="mensaje" required></textarea> <br> <br>
+
+  <div class="red"> 
+
+    <p>Encontrame acá: <a href="https://www.facebook.com/mateo.ruizdorta/">Facebook!</a> <a href="https://github.com/Te0ss">GitHub!</a></p>
+    
+
+
+  </div>
+
+    <button type="submit">Enviar</button>
+    </div>
+</form>
+</div>
+</body>
+</html>
